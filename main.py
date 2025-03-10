@@ -1,29 +1,3 @@
-# import phonenumbers
-# from phonenumbers import geocoder
-# import folium
-# from opencage.geocoder import OpenCageGeocode
-# from phonenumbers import carrier
-
-# number = input("Enter the phone number with country code: ")
-# check_number = phonenumbers.parse(number)
-# number_location = geocoder.description_for_number(check_number, "en")
-
-# print(number_location)
-# service_provider = phonenumbers.parse(number)
-# service_provider_name = carrier.name_for_number(service_provider, "en")
-# print(service_provider_name)
-# API_key = "bccab686ab8841a195625e45b1547d61"
-
-# geocoder = OpenCageGeocode(API_key)
-# query = str(number_location)
-# results = geocoder.geocode(query)
-# lat = results[0]['geometry']['lat']
-# lng = results[0]['geometry']['lng']
-
-# map_location = folium.Map(location=[lat, lng], zoom_start=9)
-# folium.Marker([lat, lng], popup=number_location).add_to(map_location)
-# map_location.save(r"C:\Users\avivj\OneDrive\Desktop\aviv\Projects\PhoneNumberTrucker\Location.html")
-
 import phonenumbers
 from phonenumbers import geocoder
 import folium
